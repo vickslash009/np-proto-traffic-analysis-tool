@@ -1,0 +1,11 @@
+# Client data stays out of the repo
+data/
+*.jsonl
+*.csv
+
+# Credentials and local files
+.env
+*client_secret*.json
+*service_account*.json
+oauth-token.json
+.DS_Store
